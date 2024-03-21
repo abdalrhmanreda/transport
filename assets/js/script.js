@@ -63,4 +63,15 @@ document.querySelectorAll('.menu-toggle').forEach(function(element) {
   });
 });
 
+// inside 
 
+
+
+function toggleNav() {
+  var nav = document.getElementById("myTopnav");
+  if (nav.style.left === "0px") {
+    nav.style.left = "-250px"; // Hide the menu
+  } else {
+    nav.style.left = "0px"; // Show the menu
+  }
+}
